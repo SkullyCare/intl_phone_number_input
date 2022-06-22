@@ -56,7 +56,7 @@ class SelectorButton extends StatelessWidget {
               )
             : Item(
                 country: country,
-                showFlag: selectorConfig.showFlags,
+                showFlag: false,
                 useEmoji: selectorConfig.useEmoji,
                 leadingPadding: selectorConfig.leadingPadding,
                 trailingSpace: selectorConfig.trailingSpace,
