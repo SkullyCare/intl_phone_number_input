@@ -87,10 +87,6 @@ class SelectorButton extends StatelessWidget {
               padding: const EdgeInsets.only(right: 8.0),
               child: Row(
                 children: [
-                  Icon(
-                    Icons.keyboard_arrow_down,
-                    color: selectorConfig.mainColor,
-                  ),
                   Item(
                     country: country,
                     showFlag: selectorConfig.showSelectedFlag,
@@ -98,6 +94,10 @@ class SelectorButton extends StatelessWidget {
                     leadingPadding: selectorConfig.leadingPadding,
                     trailingSpace: selectorConfig.trailingSpace,
                     textStyle: selectorTextStyle,
+                  ),
+                  Icon(
+                    Icons.keyboard_arrow_down,
+                    color: selectorConfig.mainColor,
                   ),
                 ],
               ),
