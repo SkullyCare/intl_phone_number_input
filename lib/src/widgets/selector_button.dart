@@ -85,13 +85,21 @@ class SelectorButton extends StatelessWidget {
                 : null,
             child: Padding(
               padding: const EdgeInsets.only(right: 8.0),
-              child: Item(
-                country: country,
-                showFlag: selectorConfig.showSelectedFlag,
-                useEmoji: selectorConfig.useEmoji,
-                leadingPadding: selectorConfig.leadingPadding,
-                trailingSpace: selectorConfig.trailingSpace,
-                textStyle: selectorTextStyle,
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.keyboard_arrow_down,
+                    color: selectorConfig.mainColor,
+                  ),
+                  Item(
+                    country: country,
+                    showFlag: selectorConfig.showSelectedFlag,
+                    useEmoji: selectorConfig.useEmoji,
+                    leadingPadding: selectorConfig.leadingPadding,
+                    trailingSpace: selectorConfig.trailingSpace,
+                    textStyle: selectorTextStyle,
+                  ),
+                ],
               ),
             ),
           );
