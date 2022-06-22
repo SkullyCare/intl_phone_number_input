@@ -36,7 +36,6 @@ class SelectorConfig {
   const SelectorConfig({
     this.selectorType = PhoneInputSelectorType.DROPDOWN,
     this.showFlags = true,
-    this.showSelectedFlag = false,
     this.useEmoji = false,
     this.countryComparator,
     this.setSelectorButtonAsPrefixIcon = false,
