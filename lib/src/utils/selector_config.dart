@@ -16,10 +16,6 @@ class SelectorConfig {
   /// and list items within the selector
   final bool showFlags;
 
-  /// [showSelectedFlag], displays flag along side countries info on selector button
-  /// and list items within the selector
-  final bool showSelectedFlag;
-
   /// [useEmoji], uses emoji flags instead of png assets
   final bool useEmoji;
 
